@@ -7,8 +7,8 @@ export class Alerts extends Component {
   }
 
   render() {
-    return <Fragment />;
+    return <div>123</div>;
   }
 }
 
-export default withAlert(Alerts);
+export default withAlert()(Alerts);
